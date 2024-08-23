@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://istoe.com.br/wp-content/uploads/2020/12/73.jpg?x38371') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: rgba(255, 99, 71, 0.8); /* Tomato com transparência */
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: #4682b4; /* SteelBlue */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    display: block;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #ff6347; /* Tomato */
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco com transparência */
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.home-text {
+    max-width: 500px;
+    margin: 20px;
+}
+
+.home-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-images img {
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.image-large {
+    max-width: 100%;
+}
+
+.image-small {
+    max-width: 50%; /* Ajuste o tamanho conforme necessário */
+}
+
+#jokes {
+    margin-top: 20px;
+}
+
+.joke {
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.joke:hover {
+    transform: scale(1.05);
+}
+.card-back {
+    background-color: #fff;
+    transform: rotateY(180deg);
+}
+
+.card-back img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: rgba(70, 130, 180, 0.8); /* SteelBlue com transparência */
+    color: white;
+    padding: 10px;
+}
